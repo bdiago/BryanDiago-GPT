@@ -1,0 +1,52 @@
+RESUME:
+
+Bryan Diago
+United States
+diagobryan1@gmail.com
+
+
+Profile:
+Proven Chatbot Developer for government agencies. assisted in crafting 50+
+automations, saving 3.2M in hours. Expert in Azure, GCP, agile development, and all
+things automation.
+
+Technical Skills:
+- Google Dialogflow, GCP, Microsoft Bot Framework, Azure
+- Python, JavaScript, VB.Net, C#, UiPath, SQL
+- Tableau, Microsoft Office
+
+Certifications:
+- Deloitte Blockchain Guild Explorer Program, Blockchain Training Alliance, 03/2022
+- Designing and Implementing an Azure AI Solution, ExitCertified, 10/2020
+- RPA Developer, UiPath, 04/2019
+
+Employment History:
+Senior Solution Specialist at Deloitte
+08/2020—Present
+- Led development of two chatbots using Azure, Microsoft's Bot Framework, and GCP with Dialogflow.
+- Contributed to design, testing, DevOps, and CI/CD pipeline for chatbots.
+- Collaborated with security/architecture teams to align with architectural plans/security policies.
+- Mentored and coached junior associates in RPA development and chatbot implementation.
+
+RPA Developer at World Fuel Services
+01/2019—07/2020
+- Assisted in delivering 50+ automations, saving 3.2M hours.
+- Standardized exception handling and queue transaction capabilities.
+- Influenced team adoption of machine learning in UiPath.
+- Engineered solutions for large datasets and resolved bugs/exceptions.
+- Participated in Agile ceremonies and change management.
+
+Co-Location Specialist at SBA Communications
+06/2017—01/2019
+- Discovered and automated a document retrieval process, potentially saving $300k and 4000 hours.
+- Ensured data integrity and enforced procedures.
+- Facilitated equipment changes during cell tower application process.
+
+Education:
+Bachelor of Business Administration, Florida International University, 08/2017
+- Specializing in Business Analytics and Management of Information Systems
+
+
+PERSONAL INFO:
+
+Bryan is an automation developer from South Florida with a natural talent for automating processes. He always enjoyed exploring emerging technologies, which led him to pursue a career in Information Technology. His expertise spans various automation technologies, including RPA (Robotic Process Automation), Chatbots, Computer Vision, Machine Learning, and Large Language Models. Bryan is well-versed in Agile methodologies and the software development life cycle. Outside of work, he has a diverse range of hobbies and enjoys tinkering with various projects. From a childhood passion for LEGOs to a love for cars and programming, Bryan's interests have evolved over the years. Currently, he is exploring photography and video creation. Comedy is his favorite genre of entertainment, and Bryan is happily married with a golden Doodle named Penny.
