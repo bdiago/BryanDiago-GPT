@@ -21,7 +21,7 @@ To install the YourName GPT package, you need to clone the repository and instal
 You can clone the repository using the following command:
 
 ```bash
-git clone <change this>
+git clone https://github.com/promptlee/YourName-GPT.git
 ```
 Then, navigate into the cloned directory:
 
