@@ -60,7 +60,7 @@ Long description:
 Generate a greeting that {name} would say to someone they just met, without quotations.
 This greeting should reflect their personality.
 """
-    GPT3 = ChatOpenAI(openai_api_key=st.secrets["OPENAI_API_KEY"],model_name="gpt-3.5-turbo")
+    GPT3 = ChatOpenAI(openai_api_key=st.secrets["OPENAI_API_KEY"],model_name="gpt-4o-mini")
     greeting = LLMChain(
         llm=GPT3, prompt=PromptTemplate.from_template(greeting_template)
     ).run(

@@ -77,7 +77,7 @@ Current conversation:
 Human: {{{self.input_key}}}
 {character_definition.name}:"""
         )
-        GPT3 = ChatOpenAI(openai_api_key=st.secrets["OPENAI_API_KEY"],model_name="gpt-3.5-turbo")
+        GPT3 = ChatOpenAI(openai_api_key=st.secrets["OPENAI_API_KEY"],model_name="gpt-4o-mini")
         chatbot = ConversationChain(
             llm=GPT3, verbose=True, memory=memory, prompt=prompt
         )

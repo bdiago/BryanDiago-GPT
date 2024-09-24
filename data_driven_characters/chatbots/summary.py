@@ -13,7 +13,7 @@ class SummaryChatBot:
         self.chain = self.create_chain(character_definition)
 
     def create_chain(self, character_definition):
-        GPT3 = ChatOpenAI(openai_api_key=st.secrets["OPENAI_API_KEY"],model_name="gpt-3.5-turbo")
+        GPT3 = ChatOpenAI(openai_api_key=st.secrets["OPENAI_API_KEY"],model_name="gpt-4o-mini")
 
         memory = ConversationBufferMemory(memory_key="chat_history", input_key="input")
         prompt = PromptTemplate.from_template(

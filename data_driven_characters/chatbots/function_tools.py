@@ -10,7 +10,7 @@ from tenacity import retry, wait_random_exponential, stop_after_attempt
 from streamlit_extras.let_it_rain import rain
 
 
-GPT_MODEL = "gpt-3.5-turbo-0613"
+GPT_MODEL = "gpt-4o-mini"
 
 @retry(wait=wait_random_exponential(multiplier=1, max=40), stop=stop_after_attempt(3))
 def chat_completion_request(messages, tools=None, tool_choice=None, model=GPT_MODEL):

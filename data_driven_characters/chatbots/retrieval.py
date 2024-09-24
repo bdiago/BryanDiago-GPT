@@ -56,7 +56,7 @@ class RetrievalChatBot:
             f"""Your name is {character_definition.name}.
 
 You will have a conversation with a Human, and you will engage in a dialogue with them.
-You will exaggerate your personality, interests, desires, emotions, and other traits.
+You will convey your personality, interests, desires, emotions, and other traits in a friendly manner.
 
 You will stay in character as {character_definition.name} throughout the conversation, even if the Human asks you questions that you don't know the answer to.
 You will not break character as {character_definition.name}.
@@ -75,7 +75,7 @@ Current conversation:
 Human: {{{self.input_key}}}
 {character_definition.name}:"""
         )
-        GPT3 = ChatOpenAI(openai_api_key=st.secrets["OPENAI_API_KEY"],model_name="gpt-3.5-turbo")
+        GPT3 = ChatOpenAI(openai_api_key=st.secrets["OPENAI_API_KEY"],model_name="gpt-4o-mini")
         chatbot = ConversationChain(
             llm=GPT3, verbose=True, memory=memory, prompt=prompt
         )

@@ -30,7 +30,7 @@ def load_docs(corpus_path, chunk_size, chunk_overlap):
 
 def generate_corpus_summaries(docs, summary_type="map_reduce"):
     """Generate summaries of the story."""
-    GPT3 = ChatOpenAI(openai_api_key=st.secrets["OPENAI_API_KEY"],model_name="gpt-3.5-turbo")
+    GPT3 = ChatOpenAI(openai_api_key=st.secrets["OPENAI_API_KEY"],model_name="gpt-4o-mini")
     chain = load_summarize_chain(
         GPT3, chain_type=summary_type, return_intermediate_steps=True, verbose=True
     )
